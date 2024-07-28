@@ -1,0 +1,91 @@
+:root {
+    --color-primary-green: #819B57;
+    --color-primary-brown: #31261A;
+    --color-primary-beige: #FAF4EA;
+
+    --color-secondary-green: #465929;
+    --color-secondary-brown: #A18268;
+    --color-secondary-beige: #CFCFBC;
+}
+
+/* Base */
+
+body {
+    color: var(--color-primary-brown);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    color: var(--color-primary-beige);
+    background-color: var(--color-primary-green);
+    border: 2px solid var(--color-primary-green);
+    border-radius: 8px;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: var(--color-secondary-green);
+    background-color: transparent;
+    border: 2px solid var(--color-primary-green);
+}
+
+.section-title {
+    color: var(--color-primary-brown);
+}
+
+/* Header */
+
+.nav-link {
+    color: var(--color-primary-beige)
+}
+
+.nav-link:hover {
+    color: var(--color-primary-green);
+}
+
+.hero-title .accent {
+    color: var(--color-primary-green);
+}
+
+/* Advatanges - переваги */
+
+.advantages-list {
+    background-color: var(--color-primary-green);
+    color: var(--color-primary-beige);
+}
+
+/* Traditions */
+
+.section-title .accent {
+    color: var(--color-primary-green);
+}
+
+/* Chefs */
+
+.chefs-title.accent {
+    color: var(--color-secondary-green)
+}
+
+/* Fromats */
+
+.formats-section {
+    color: var(--color-primary-beige);
+}
+
+/* Forms */
+
+.section-title .accent-green {
+    color: var(--color-secondary-green);
+}
+
+.section-title .accent-brown {
+    color: var(--color-primary-brown);
+}
