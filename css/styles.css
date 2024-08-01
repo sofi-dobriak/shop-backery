@@ -1,3 +1,7 @@
+/* Fonts */
+
+/* root */
+
 :root {
     --color-primary-green: #819B57;
     --color-primary-brown: #31261A;
@@ -10,8 +14,26 @@
 
 /* Base */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--color-primary-brown);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
 }
 
 a {
@@ -22,6 +44,21 @@ ul {
     list-style-type: none;
 }
 
+address {
+    font-style: normal;
+}
+
+.container{
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.section {
+    padding: 48px 0;
+}
+
 .btn {
     color: var(--color-primary-beige);
     background-color: var(--color-primary-green);
@@ -29,6 +66,8 @@ ul {
     border-radius: 8px;
     padding: 16px 32px;
     cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .btn:hover {
@@ -41,6 +80,11 @@ ul {
     color: var(--color-primary-brown);
 }
 
+.section-title .accent {
+    color: var(--color-primary-green);
+    font-weight: 600;
+}
+
 /* Header */
 
 .nav-link {
@@ -49,6 +93,15 @@ ul {
 
 .nav-link:hover {
     color: var(--color-primary-green);
+    font-weight: 600;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 128px;
+    text-align: center;
+    padding: 272px 0;
+    margin-bottom: 0;
 }
 
 .hero-title .accent {
@@ -60,27 +113,88 @@ ul {
 .advantages-list {
     background-color: var(--color-primary-green);
     color: var(--color-primary-beige);
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Переваги */
+
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 /* Traditions */
 
-.section-title .accent {
-    color: var(--color-primary-green);
+.traditions-section {
+    padding-top: 96px;
+}
+
+.traditions-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.3125;
+    margin-bottom: 42px;
+}
+
+.traditions-accent {
+    text-transform: uppercase;
 }
 
 /* Chefs */
 
-.chefs-title.accent {
-    color: var(--color-secondary-green)
+.chefs-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.3125;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.chefs-accent {
+    color: var(--color-secondary-green);
+}
+
+.chefs-sub-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 16px;
 }
 
 /* Fromats */
 
-.formats-section {
+.format-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.3125;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.format-sub-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.format-text {
     color: var(--color-primary-beige);
+    font-weight: 300;
+    font-size: 14px;
 }
 
 /* Forms */
+
+.form-title {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.3125;
+    margin-bottom: 16px;
+}
 
 .section-title .accent-green {
     color: var(--color-secondary-green);
@@ -88,4 +202,27 @@ ul {
 
 .section-title .accent-brown {
     color: var(--color-primary-brown);
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+/* Footer */
+
+.address-link {
+    color: var(--color-primary-beige);
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--color-primary-green)
+}
+
+.address-copyright {
+    color: var(--color-secondary-brown);
+    font-weight: 300;
+    font-size: 16px;
 }
