@@ -48,7 +48,7 @@ address {
     font-style: normal;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1288px;
     margin: 0 auto;
@@ -142,6 +142,10 @@ address {
     margin-bottom: 42px;
 }
 
+.tradition-text {
+    margin-bottom: 42px;
+}
+
 .traditions-accent {
     text-transform: uppercase;
 }
@@ -166,6 +170,10 @@ address {
     margin-bottom: 16px;
 }
 
+.chefs-text {
+    margin-bottom: 36px;
+}
+
 /* Fromats */
 
 .format-title {
@@ -179,6 +187,7 @@ address {
 .format-sub-title {
     font-weight: 600;
     font-size: 24px;
+    margin-bottom: 16px;
 }
 
 .format-text {
@@ -198,6 +207,7 @@ address {
 
 .section-title .accent-green {
     color: var(--color-secondary-green);
+    margin-bottom: 42px;
 }
 
 .section-title .accent-brown {
@@ -225,4 +235,9 @@ address {
     color: var(--color-secondary-brown);
     font-weight: 300;
     font-size: 16px;
+    margin-top: 16px;
+}
+
+.address {
+    margin-bottom: 16px;
 }
