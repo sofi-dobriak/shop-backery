@@ -35,14 +35,14 @@
                         <li><a class="nav-link" href="#contacts-section">Контакти</a></li>
                     </ul>
                 </nav>
-                <button class="btn" type="button">Замовити дзвінок</button>
+                <button class="btn modal-btn-open" type="button">Замовити дзвінок</button>
             </div>
         </div>
     </header>
 
     <main>
         <!-- Перший екран -->
-        <section class="hero-section">
+        <section>
             <h1 class="hero-title"><span class="accent">Сучасна</span> <span class="header-bakery-white">пекарня</span>
             </h1>
         </section>
@@ -86,7 +86,7 @@
         <!-- Наші шеф-кухарі -->
         <section class="section section-title" id="chefs-sections">
             <div class="container">
-                <h2 class="chefs-title">Наші найкращі<span class="chefs-accent"> шеф-кухарі</span></h2>
+                <h2 class="chefs-title">Наші найкращі <br> <span class="chefs-accent"> шеф-кухарі</span></h2>
 
                 <div class="chef-container-section">
                     <!-- Настя -->
@@ -162,7 +162,7 @@
                     </ul>
 
                     <!-- Slider button -->
-                    <button class="slider-button" type="button">
+                    <button class="slider-button next" type="button">
                         <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-arrow"></use>
                         </svg>
@@ -263,6 +263,15 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal Window -->
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button class="modal-btn-close" type="button">Close</button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
