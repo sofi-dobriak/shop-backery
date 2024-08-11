@@ -18,9 +18,11 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
+
     color: var(--color-primary-brown);
     background-color: var(--color-primary-beige);
     font-family: 'Poppins', sans-serif;
@@ -78,7 +80,7 @@ address {
 }
 
 .btn:hover {
-    color: var(--color-primary-beige);
+    color: var(--color-primary-green);
     background-color: transparent;
 }
 
@@ -270,7 +272,7 @@ address {
 }
 
 .chefs-title::after {
-    right: -360px;
+    right: 0px;
 }
 
 .chefs-accent {
@@ -288,7 +290,7 @@ address {
     box-shadow: -16px 16px 0 0 var(--color-primary-beige), -16px 16px 0 2px var(--color-secondary-brown);
 }
 
-/* Fromats */
+/* Formats */
 
 .format-container {
     display: flex;
@@ -384,7 +386,7 @@ address {
     border-radius: 16px;
 }
 
-.form-title {
+.form-contact-title {
     font-weight: 700;
     font-size: 64px;
     line-height: 1.3;
@@ -402,7 +404,6 @@ address {
     color: var(--color-primary-brown);
     font-size: 12px;
     text-align: center;
-    text-decoration: underline;
     text-decoration-skip-ink: none;
 }
 
@@ -516,6 +517,8 @@ address {
     max-height: 880px;
     background-color: var(--color-primary-beige);
     border-radius: 32px;
+    padding: 128px;
+    /* overflow-y: auto; */
 }
 
 .backdrop.is-hidden {
@@ -528,4 +531,77 @@ address {
     position: absolute;
     top: 40px;
     right: 40px;
+}
+
+/* Form */
+
+.form-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.3125;
+    text-align: center;
+    color: var(--color-primary-brown);
+    margin-bottom: 12px;
+}
+
+.form-pre-text {
+    font-size: 18px;
+    text-align: center;
+    color: var(--color-secondary-green);
+    margin-bottom: 72px;
+}
+
+.form-field {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form-label {
+    position: absolute;
+    left: 42px;
+    top: 16px;
+}
+
+.form-input {
+    padding: 16px 42px;
+    width: 100%;
+    border: 1px solid var(--color-secondary-brown);
+    border-radius: 8px;
+    background: transparent;
+}
+
+.form-input:focus {
+    border-color: var(--color-primary-green);
+    outline: none;
+}
+
+.form-input::placeholder {
+    color: var(--color-secondary-brown);
+}
+
+.form-input:focus::placeholder {
+    color: var(--color-primary-brown);
+    font-style: 16px;
+    line-height: 1.17;
+}
+
+.from-button {
+    display: block;
+    margin: 0 auto 24px;
+}
+
+.from-term {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.46;
+    text-align: center;
+    max-width: 220px;
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+
+.form-term-link {
+    color: var(--color-primary-brown);
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
