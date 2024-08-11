@@ -176,24 +176,34 @@
             <div class="container">
                 <div class="contact-container">
                     <div class="contact-form-container">
-                        <h2 class="form-title">Приєднуйся до мережі пекарень</h2>
+                        <h2 class="form-contact-title">Приєднуйся до мережі пекарень</h2>
                         <p class="accent-green">Заповни форму, щоб ми звʼязались з тобою!</p>
 
                         <!-- Form -->
+                        <form>
+                            <div class="form-field">
+                                <label class="form-label visually-hidden" for="user-name">Ім’я</label>
+                                <input class="form-input" type="text" id="user-name" name="user-name"
+                                    placeholder="Ім’я">
+                            </div>
 
-                        <!-- <form action="#">
-                            <label for="name">
-                                <input type="text" id="name" placeholder="Ім’я">
-                            </label>
-                            <label for="tel">
-                                <input type="tel" id="tel" placeholder="Телефон">
-                            </label>
-                            <label for="email">
-                                <input type="email" id="email" placeholder="Електронна пошта">
-                            </label>
+                            <div class="form-field">
+                                <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+                                <input class="form-input" type="user-tel" id="tel" name="user-tel"
+                                    placeholder="Телефон">
+                            </div>
+
+                            <div class="form-field">
+                                <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+                                <input class="form-input" type="email" id="user-email" name="user-email"
+                                    placeholder="Електронна пошта">
+                            </div>
+                            <button class="from-button btn" type="submit">Замовити дзвінок</button>
+                            <p class="from-term accent-brown">Натискаючи на кнопку я погоджуюсь з <a
+                                    class="form-term-link" href="#">політикою
+                                    конфіденційності</a></p>
                         </form>
-                        <button class="btn" type="submit">Замовити дзвінок</button>
-                        <p class="accent-brown">Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p> -->
+
                     </div>
 
                     <iframe class="contact-map"
@@ -267,7 +277,34 @@
     <!-- Modal Window -->
     <div class="backdrop is-hidden">
         <div class="modal">
-            <button class="modal-btn-close" type="button">Close</button>
+            <a class="modal-btn-close" href="#">
+                <img src="./images/close-icon.svg" alt="Close icon">
+            </a>
+            <h2 class="form-title">Замовити дзвінок</h2>
+            <p class="form-pre-text">Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+
+            <form>
+                <div class="form-field">
+                    <label class="form-label visually-hidden" for="user-name">Ім’я</label>
+                    <input class="form-input" type="text" id="user-name" name="user-name" placeholder="Ім’я">
+                </div>
+
+                <div class="form-field">
+                    <label class="form-label visually-hidden" for="user-tel">Телефон</label>
+                    <input class="form-input" type="user-tel" id="tel" name="user-tel" placeholder="Телефон">
+                </div>
+
+                <div class="form-field">
+                    <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
+                    <input class="form-input" type="email" id="user-email" name="user-email"
+                        placeholder="Електронна пошта">
+                </div>
+                <button class="from-button btn" type="submit">Замовити дзвінок</button>
+                <p class="from-term accent-brown">Натискаючи на кнопку я погоджуюсь з <a class="form-term-link"
+                        href="#">політикою
+                        конфіденційності</a></p>
+            </form>
+
         </div>
     </div>
 
