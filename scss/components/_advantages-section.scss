@@ -1,0 +1,17 @@
+.advantages-section {
+  background-color: var(--color-primary-green);
+  padding: 16px 0;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.advantages-item {
+  color: var(--color-primary-beige);
+}

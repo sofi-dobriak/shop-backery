@@ -1,0 +1,32 @@
+.address-link {
+    color: var(--color-primary-beige);
+    font-weight: 300;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--color-primary-green);
+}
+
+.address-icon {
+    fill: var(--color-primary-beige);
+    transition: fill 0.3s;
+}
+
+.address-icon:hover,
+.address-icon:focus {
+    fill: var(--color-primary-green);
+}
+
+.address-copyright {
+    color: var(--color-secondary-brown);
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.address {
+    margin-bottom: 16px;
+}

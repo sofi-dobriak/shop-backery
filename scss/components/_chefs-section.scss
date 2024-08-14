@@ -1,0 +1,64 @@
+.chef-container-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.chef-container {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 2);
+  gap: 40px 30px;
+}
+
+.chef-container p {
+  margin-bottom: 24px;
+}
+
+.chef-container p:last-child {
+  margin-bottom: 0;
+}
+
+.chefs-title {
+  position: relative;
+  font-size: 64px;
+  line-height: 1.3125;
+  text-align: center;
+  margin-bottom: 80px;
+  margin: 0 auto 80px;
+}
+
+.chefs-title::before,
+.chefs-title::after {
+  position: absolute;
+  bottom: 24px;
+  content: "";
+  display: block;
+  width: 352px;
+  height: 0;
+  border: 2px solid var(--color-secondary-beige);
+}
+
+.chefs-title::before {
+  left: 0px;
+}
+
+.chefs-title::after {
+  right: 0px;
+}
+
+.chefs-accent {
+  color: var(--color-secondary-green);
+}
+
+.chefs-sub-title {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.chef-img {
+  border-radius: 4px 4px 4px 200px;
+  box-shadow: -16px 16px 0 0 var(--color-primary-beige),
+    -16px 16px 0 2px var(--color-secondary-brown);
+}

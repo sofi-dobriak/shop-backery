@@ -1,0 +1,36 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 32px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.header-link {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 64px;
+}
+
+.nav-link {
+  color: var(--color-primary-beige);
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--color-primary-green);
+}
