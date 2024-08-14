@@ -1,7 +1,4 @@
-.hero-title {
-  font-weight: 900;
-  font-size: 128px;
-  text-align: center;
+.hero-section {
   padding: 272px 0;
   margin-bottom: 0;
   height: 100vh;
@@ -15,12 +12,12 @@
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-}
 
-.hero-title .accent {
-  color: var(--color-primary-green);
-}
-
-.header-bakery-white {
-  color: var(--color-primary-beige);
+  &__title {
+    margin-bottom: 0;
+    color: var(--color-primary-beige);
+    font-weight: 900;
+    font-size: 128px;
+    text-align: center;
+  }
 }

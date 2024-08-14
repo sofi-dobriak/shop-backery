@@ -1,20 +1,27 @@
 @charset "UTF-8";
 
-@import "./utils/variables";
 @import "./base";
+@import "./utils/texts";
+@import "./utils/variables";
 @import "./utils/utils";
+
 @import "./components/buttons";
-@import "./components/sections";
+@import "./components/chef-card";
+@import "./components/format-card";
+@import "./components/input";
+@import "./components/links";
 @import "./components/slider-buttons";
 
-@import "./components/address-link";
-@import "./components/advantages-section";
-@import "./components/chefs-section";
-@import "./components/contacts-section";
-@import "./components/form";
-@import "./components/formats-section";
-@import "./components/footer-section";
-@import "./components/header";
-@import "./components/hero-section";
-@import "./components/modal-window";
-@import "./components/traditions-section";
+@import "./layouts/address-link";
+@import "./layouts/advantages-section";
+@import "./layouts/chefs-section";
+@import "./layouts/contacts-section";
+@import "./layouts/form";
+@import "./layouts/form-terms";
+@import "./layouts/formats-section";
+@import "./layouts/footer-section";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/modal-window";
+@import "./layouts/sections";
+@import "./layouts/traditions-section";

@@ -1,0 +1,33 @@
+.input {
+  position: relative;
+  margin-bottom: 32px;
+
+  &__label {
+    position: absolute;
+    left: 42px;
+    top: 16px;
+  }
+
+  &__control {
+    padding: 16px 42px;
+    width: 100%;
+    border: 1px solid var(--color-secondary-brown);
+    border-radius: 8px;
+    background: transparent;
+  }
+
+  &__control:focus {
+    border-color: var(--color-primary-green);
+    outline: none;
+  }
+
+  &__control::placeholder {
+    color: var(--color-secondary-brown);
+  }
+
+  &__control:focus::placeholder {
+    color: var(--color-primary-brown);
+    font-style: 16px;
+    line-height: 1.17;
+  }
+}

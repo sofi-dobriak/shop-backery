@@ -1,0 +1,29 @@
+.tradition-section {
+  padding-top: 96px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &__content {
+    max-width: 680px;
+  }
+
+  &__title {
+    font-size: 64px;
+    line-height: 1.3125;
+    margin-bottom: 42px;
+  }
+
+  &__text {
+    &--limited {
+      max-width: 340px;
+    }
+  }
+
+  &__img {
+    border-radius: 400px 400px 0 0;
+  }
+}
