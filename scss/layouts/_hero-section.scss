@@ -8,10 +8,22 @@
       rgba(18, 18, 17, 0.6) 63.89%,
       rgba(18, 18, 17, 0) 100%
     ),
-    url(../images/hero-section-1.jpg);
+    url(../images/hero-section.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolutin: 192dpi),
+    (min-resolutin: 2dppx) {
+    background-image: linear-gradient(
+        127deg,
+        rgba(18, 18, 17, 0.78) 0%,
+        rgba(18, 18, 17, 0.6) 63.89%,
+        rgba(18, 18, 17, 0) 100%
+      ),
+      url(../images/hero-section@2x.jpg);
+  }
 
   &__title {
     margin-bottom: 0;

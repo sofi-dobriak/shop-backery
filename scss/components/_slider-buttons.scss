@@ -12,13 +12,13 @@
   padding: 0;
   cursor: pointer;
   transition: fill 0.3s, background-color 0.3s;
-}
 
-.slider-button:hover {
-  fill: var(--color-primary-beige);
-  background-color: var(--color-primary-brown);
-}
+  &:hover {
+    fill: var(--color-primary-beige);
+    background-color: var(--color-primary-brown);
+  }
 
-.slider-button.next {
-  transform: rotate(180deg);
+  &.next {
+    transform: rotate(180deg);
+  }
 }
